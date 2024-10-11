@@ -8,6 +8,10 @@ import { ProductsComponent } from './components/products/products.component';
 import { PlatformsComponent } from './components/platforms/platforms.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { ErpComponent } from "./components/products/erp/erp.component";
+import { CrmComponent } from "./components/products/crm/crm.component";
+import { EmployeesComponent } from "./components/platforms/employees/employees.component";
+import { ClientsComponent } from "./components/platforms/clients/clients.component";
 
 @Component({
   selector: 'app-root',
@@ -19,8 +23,7 @@ import { ContactComponent } from './components/contact/contact.component';
     ProductsComponent,
     PlatformsComponent,
     AboutComponent,
-    ContactComponent
-  ],
+    ContactComponent, ErpComponent, CrmComponent, EmployeesComponent, ClientsComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })

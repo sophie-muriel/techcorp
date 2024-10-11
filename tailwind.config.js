@@ -5,17 +5,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {
-        'A': '#65DEE0',
-        'B': '#71ACAD',
-        },
-        secundary: {
-        'C': '#687A7A',
-        },
-        tertiary:{
-        'D': '#364747',
-        'E': '#1C3333',
-        },
+        primary: '#4A90E2',
+        secondary: '#50E3C2',
+        lightBackground: '#F5F7FA',
+        darkBackground: '#34495E',
+        detail: '#7F8C8D',
       },
     },
     fontFamily: {
