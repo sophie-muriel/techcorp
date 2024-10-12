@@ -23,7 +23,11 @@ import { ClientsComponent } from "./components/platforms/clients/clients.compone
     ProductsComponent,
     PlatformsComponent,
     AboutComponent,
-    ContactComponent, ErpComponent, CrmComponent, EmployeesComponent, ClientsComponent],
+    ContactComponent,
+    ErpComponent,
+    CrmComponent,
+    EmployeesComponent,
+    ClientsComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
