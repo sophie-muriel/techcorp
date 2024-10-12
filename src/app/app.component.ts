@@ -12,6 +12,10 @@ import { ErpComponent } from "./components/products/erp/erp.component";
 import { CrmComponent } from "./components/products/crm/crm.component";
 import { EmployeesComponent } from "./components/platforms/employees/employees.component";
 import { ClientsComponent } from "./components/platforms/clients/clients.component";
+import { DashboardComponent } from './components/platforms/employees/dashboard/dashboard.component';
+import { TaskListComponent } from './components/platforms/employees/task-list/task-list.component';
+import { ProjectsComponent } from './components/platforms/employees/projects/projects.component';
+import { GithubRepoComponent } from './components/platforms/employees/github-repo/github-repo.component';
 
 @Component({
   selector: 'app-root',
@@ -27,7 +31,12 @@ import { ClientsComponent } from "./components/platforms/clients/clients.compone
     ErpComponent,
     CrmComponent,
     EmployeesComponent,
-    ClientsComponent],
+    ClientsComponent,
+    DashboardComponent,
+    TaskListComponent,
+    ProjectsComponent,
+    GithubRepoComponent
+],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
